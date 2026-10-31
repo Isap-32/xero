@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="48c1dec0-b5fe-4f08-bb10-2c94964f4a81" name="@ca0eab67ab21 2026-10-31 00:52:21" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-31T00:52:21.5680043+00:00" queuing="2026-10-31T00:52:21.5680043+00:00" start="2026-10-31T00:52:21.1500103+00:00" finish="2026-10-31T00:52:21.6012022+00:00" />
+  <TestSettings name="default" id="b9c162de-31cf-462e-bf6b-5ef422ff7119">
+    <Deployment runDeploymentRoot="_ca0eab67ab21_2026-10-31_00_52_21" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9817678d-ae88-40c4-a073-23dfa95f8d8b" testId="cf7bd6e6-b975-1d34-9b5c-69e2626bd1bd" testName="KeyBoost.Tests.ProfileServiceTests.CreateRenameDeleteArePersisted" computerName="ca0eab67ab21" duration="00:00:00.0399061" startTime="2026-10-31T00:52:21.5439722+00:00" endTime="2026-10-31T00:52:21.5439722+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9817678d-ae88-40c4-a073-23dfa95f8d8b" />
+    <UnitTestResult executionId="cdf820a9-497a-4b12-aff0-f33e5581ebd0" testId="24dfe0e4-6092-63f4-b849-f5a04b318df9" testName="KeyBoost.Tests.ProfileServiceTests.CorruptFileCanBePreservedAcrossSubsequentSaves" computerName="ca0eab67ab21" duration="00:00:00.0004924" startTime="2026-10-31T00:52:21.5439929+00:00" endTime="2026-10-31T00:52:21.5439929+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdf820a9-497a-4b12-aff0-f33e5581ebd0" />
+    <UnitTestResult executionId="e690941e-6fc9-4082-bb83-7b5db572a2d4" testId="c6377502-fcca-1984-6a5d-c74b835b1f17" testName="KeyBoost.Tests.CoreTests.InvalidConfigurationIsPreserved" computerName="ca0eab67ab21" duration="00:00:00.0037725" startTime="2026-10-31T00:52:21.5439502+00:00" endTime="2026-10-31T00:52:21.5439502+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e690941e-6fc9-4082-bb83-7b5db572a2d4" />
+    <UnitTestResult executionId="b231a24b-f0a3-4a10-8bee-a7a8006c5968" testId="19fb7513-fcc0-7abb-3d99-90a50ebf1acc" testName="KeyBoost.Tests.KeyboardSettingsTests.RejectedApiLeavesDurableRestoreSnapshot" computerName="ca0eab67ab21" duration="00:00:00.0050381" startTime="2026-10-31T00:52:21.5439205+00:00" endTime="2026-10-31T00:52:21.5439205+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b231a24b-f0a3-4a10-8bee-a7a8006c5968" />
+    <UnitTestResult executionId="a48a669d-3a73-4821-9d52-0f2bfe7cc27b" testId="1efeefb0-62be-0e6d-4705-0bfc9c977167" testName="KeyBoost.Tests.KeyboardSettingsTests.NoSnapshotCannotRestore" computerName="ca0eab67ab21" duration="00:00:00.0038641" startTime="2026-10-31T00:52:21.4935218+00:00" endTime="2026-10-31T00:52:21.4935323+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a48a669d-3a73-4821-9d52-0f2bfe7cc27b" />
+    <UnitTestResult executionId="b6407ad3-107c-44a4-a034-c35cc8196b2c" testId="ab088c96-ba08-1271-6110-9147c2e57f8c" testName="KeyBoost.Tests.CoreTests.RejectsUnsupportedSettings(delay: -1, speed: 0)" computerName="ca0eab67ab21" duration="00:00:00.0000092" startTime="2026-10-31T00:52:21.5438953+00:00" endTime="2026-10-31T00:52:21.5438953+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6407ad3-107c-44a4-a034-c35cc8196b2c" />
+    <UnitTestResult executionId="b9d0bd89-688b-42eb-ae5c-d69cf703c2ce" testId="baafa294-12d5-1672-0165-443e0efcae55" testName="KeyBoost.Tests.KeyboardSettingsTests.ApplySavesOriginalBeforeChangeAndRestoreSurvivesRestart" computerName="ca0eab67ab21" duration="00:00:00.0037761" startTime="2026-10-31T00:52:21.5440140+00:00" endTime="2026-10-31T00:52:21.5440140+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9d0bd89-688b-42eb-ae5c-d69cf703c2ce" />
+    <UnitTestResult executionId="cc494841-3bed-414c-92cf-5136a6def23a" testId="7d68218e-35a2-6694-05c6-e556e0598247" testName="KeyBoost.Tests.CoreTests.ImportedProfileCannotUseOutOfRangeSettings" computerName="ca0eab67ab21" duration="00:00:00.0173161" startTime="2026-10-31T00:52:21.5198053+00:00" endTime="2026-10-31T00:52:21.5198054+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc494841-3bed-414c-92cf-5136a6def23a" />
+    <UnitTestResult executionId="6aeba7e2-b6d0-46fd-9632-751d64b52294" testId="2b169b81-7644-ed20-f0d1-7166ea416a14" testName="KeyBoost.Tests.CoreTests.RejectsUnsupportedSettings(delay: 3, speed: 32)" computerName="ca0eab67ab21" duration="00:00:00.0002072" startTime="2026-10-31T00:52:21.5213525+00:00" endTime="2026-10-31T00:52:21.5213526+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6aeba7e2-b6d0-46fd-9632-751d64b52294" />
+    <UnitTestResult executionId="065e85ad-0cdd-41bb-aea8-7bf1b6539cae" testId="f984c1de-15de-f28a-0014-edddde47d4fd" testName="KeyBoost.Tests.CoreTests.ConcurrentKeysAndBlurDoNotInventKeyUps" computerName="ca0eab67ab21" duration="00:00:00.0156285" startTime="2026-10-31T00:52:21.5028889+00:00" endTime="2026-10-31T00:52:21.5028891+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="065e85ad-0cdd-41bb-aea8-7bf1b6539cae" />
+    <UnitTestResult executionId="b6dee1f8-050a-43f1-8f01-5c810235efbc" testId="3f67eae5-2a8e-2b83-9817-50417fdade48" testName="KeyBoost.Tests.CoreTests.SavesBackupBeforeReplacement" computerName="ca0eab67ab21" duration="00:00:00.0017157" startTime="2026-10-31T00:52:21.5210916+00:00" endTime="2026-10-31T00:52:21.5210917+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6dee1f8-050a-43f1-8f01-5c810235efbc" />
+    <UnitTestResult executionId="becb7c71-8b2f-4805-b589-70b739976792" testId="264b5b5a-1bf4-c9af-0af8-f3a4b2ab5578" testName="KeyBoost.Tests.CoreTests.ProfilesAndPreferencesSurviveRestart" computerName="ca0eab67ab21" duration="00:00:00.0108673" startTime="2026-10-31T00:52:21.5440615+00:00" endTime="2026-10-31T00:52:21.5440615+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="becb7c71-8b2f-4805-b589-70b739976792" />
+    <UnitTestResult executionId="cff2f2fb-851f-4875-b12b-0dd1be96faa4" testId="99ff7d36-0b4b-1f57-d540-c056aa8ae7c9" testName="KeyBoost.Tests.CoreTests.InputIgnoresAutoRepeatAndMeasuresHoldAndInterval" computerName="ca0eab67ab21" duration="00:00:00.0018666" startTime="2026-10-31T00:52:21.5447344+00:00" endTime="2026-10-31T00:52:21.5447344+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cff2f2fb-851f-4875-b12b-0dd1be96faa4" />
+    <UnitTestResult executionId="948ec518-4d70-4342-8705-49312519db08" testId="e519dc86-03d2-d7a6-fd5c-fab9726b324f" testName="KeyBoost.Tests.ProfileServiceTests.PersistenceFailureRollsBackMemory" computerName="ca0eab67ab21" duration="00:00:00.0092495" startTime="2026-10-31T00:52:21.5440459+00:00" endTime="2026-10-31T00:52:21.5440459+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="948ec518-4d70-4342-8705-49312519db08" />
+    <UnitTestResult executionId="bf74e63f-66fc-4a7f-be09-7a886f57219c" testId="071a3ac9-12a0-e8ab-17c6-dfb98188130e" testName="KeyBoost.Tests.CoreTests.AllPresetsAreSupported" computerName="ca0eab67ab21" duration="00:00:00.0002873" startTime="2026-10-31T00:52:21.5447563+00:00" endTime="2026-10-31T00:52:21.5447564+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf74e63f-66fc-4a7f-be09-7a886f57219c" />
+    <UnitTestResult executionId="a13e1f91-c0ac-47b8-91d8-278bf1c097a8" testId="c6b4b98f-216c-df1a-5520-9dcdf08591b7" testName="KeyBoost.Tests.KeyboardSettingsTests.ReadBackMismatchIsFailure" computerName="ca0eab67ab21" duration="00:00:00.0232114" startTime="2026-10-31T00:52:21.5187560+00:00" endTime="2026-10-31T00:52:21.5187561+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a13e1f91-c0ac-47b8-91d8-278bf1c097a8" />
+    <UnitTestResult executionId="e5de2a62-8588-4c83-baf6-81ca59204113" testId="48904153-f217-dd2f-6dad-e70f12ce6786" testName="KeyBoost.Tests.CoreTests.RejectsUnsupportedSettings(delay: 0, speed: -1)" computerName="ca0eab67ab21" duration="00:00:00.0001652" startTime="2026-10-31T00:52:21.5215465+00:00" endTime="2026-10-31T00:52:21.5215465+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5de2a62-8588-4c83-baf6-81ca59204113" />
+    <UnitTestResult executionId="2f7af418-3773-4654-b346-4b835201d411" testId="c1dc3c97-9d71-cb46-1d3b-587f5dff64c4" testName="KeyBoost.Tests.CoreTests.RejectsUnsupportedSettings(delay: 4, speed: 31)" computerName="ca0eab67ab21" duration="00:00:00.0000154" startTime="2026-10-31T00:52:21.5437891+00:00" endTime="2026-10-31T00:52:21.5437892+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f7af418-3773-4654-b346-4b835201d411" />
+    <UnitTestResult executionId="e090d62b-d330-43a3-899c-bc57fcb3edb5" testId="5a603c15-814d-5bb4-e129-60a433b49104" testName="KeyBoost.Tests.CoreTests.ProfileRoundTripUsesNewIdentity" computerName="ca0eab67ab21" duration="00:00:00.0017619" startTime="2026-10-31T00:52:21.5447085+00:00" endTime="2026-10-31T00:52:21.5447086+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e090d62b-d330-43a3-899c-bc57fcb3edb5" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="KeyBoost.Tests.ProfileServiceTests.PersistenceFailureRollsBackMemory" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="e519dc86-03d2-d7a6-fd5c-fab9726b324f">
+      <Execution id="948ec518-4d70-4342-8705-49312519db08" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.ProfileServiceTests" name="PersistenceFailureRollsBackMemory" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.CoreTests.ConcurrentKeysAndBlurDoNotInventKeyUps" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="f984c1de-15de-f28a-0014-edddde47d4fd">
+      <Execution id="065e85ad-0cdd-41bb-aea8-7bf1b6539cae" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.CoreTests" name="ConcurrentKeysAndBlurDoNotInventKeyUps" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.KeyboardSettingsTests.ReadBackMismatchIsFailure" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="c6b4b98f-216c-df1a-5520-9dcdf08591b7">
+      <Execution id="a13e1f91-c0ac-47b8-91d8-278bf1c097a8" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.KeyboardSettingsTests" name="ReadBackMismatchIsFailure" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.CoreTests.InputIgnoresAutoRepeatAndMeasuresHoldAndInterval" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="99ff7d36-0b4b-1f57-d540-c056aa8ae7c9">
+      <Execution id="cff2f2fb-851f-4875-b12b-0dd1be96faa4" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.CoreTests" name="InputIgnoresAutoRepeatAndMeasuresHoldAndInterval" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.CoreTests.SavesBackupBeforeReplacement" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="3f67eae5-2a8e-2b83-9817-50417fdade48">
+      <Execution id="b6dee1f8-050a-43f1-8f01-5c810235efbc" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.CoreTests" name="SavesBackupBeforeReplacement" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.CoreTests.RejectsUnsupportedSettings(delay: -1, speed: 0)" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="ab088c96-ba08-1271-6110-9147c2e57f8c">
+      <Execution id="b6407ad3-107c-44a4-a034-c35cc8196b2c" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.CoreTests" name="RejectsUnsupportedSettings" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.CoreTests.RejectsUnsupportedSettings(delay: 3, speed: 32)" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="2b169b81-7644-ed20-f0d1-7166ea416a14">
+      <Execution id="6aeba7e2-b6d0-46fd-9632-751d64b52294" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.CoreTests" name="RejectsUnsupportedSettings" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.KeyboardSettingsTests.NoSnapshotCannotRestore" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="1efeefb0-62be-0e6d-4705-0bfc9c977167">
+      <Execution id="a48a669d-3a73-4821-9d52-0f2bfe7cc27b" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.KeyboardSettingsTests" name="NoSnapshotCannotRestore" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.CoreTests.RejectsUnsupportedSettings(delay: 4, speed: 31)" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="c1dc3c97-9d71-cb46-1d3b-587f5dff64c4">
+      <Execution id="2f7af418-3773-4654-b346-4b835201d411" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.CoreTests" name="RejectsUnsupportedSettings" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.CoreTests.ImportedProfileCannotUseOutOfRangeSettings" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="7d68218e-35a2-6694-05c6-e556e0598247">
+      <Execution id="cc494841-3bed-414c-92cf-5136a6def23a" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.CoreTests" name="ImportedProfileCannotUseOutOfRangeSettings" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.CoreTests.RejectsUnsupportedSettings(delay: 0, speed: -1)" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="48904153-f217-dd2f-6dad-e70f12ce6786">
+      <Execution id="e5de2a62-8588-4c83-baf6-81ca59204113" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.CoreTests" name="RejectsUnsupportedSettings" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.CoreTests.ProfileRoundTripUsesNewIdentity" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="5a603c15-814d-5bb4-e129-60a433b49104">
+      <Execution id="e090d62b-d330-43a3-899c-bc57fcb3edb5" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.CoreTests" name="ProfileRoundTripUsesNewIdentity" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.KeyboardSettingsTests.RejectedApiLeavesDurableRestoreSnapshot" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="19fb7513-fcc0-7abb-3d99-90a50ebf1acc">
+      <Execution id="b231a24b-f0a3-4a10-8bee-a7a8006c5968" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.KeyboardSettingsTests" name="RejectedApiLeavesDurableRestoreSnapshot" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.CoreTests.InvalidConfigurationIsPreserved" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="c6377502-fcca-1984-6a5d-c74b835b1f17">
+      <Execution id="e690941e-6fc9-4082-bb83-7b5db572a2d4" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.CoreTests" name="InvalidConfigurationIsPreserved" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.ProfileServiceTests.CorruptFileCanBePreservedAcrossSubsequentSaves" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="24dfe0e4-6092-63f4-b849-f5a04b318df9">
+      <Execution id="cdf820a9-497a-4b12-aff0-f33e5581ebd0" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.ProfileServiceTests" name="CorruptFileCanBePreservedAcrossSubsequentSaves" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.CoreTests.AllPresetsAreSupported" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="071a3ac9-12a0-e8ab-17c6-dfb98188130e">
+      <Execution id="bf74e63f-66fc-4a7f-be09-7a886f57219c" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.CoreTests" name="AllPresetsAreSupported" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.CoreTests.ProfilesAndPreferencesSurviveRestart" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="264b5b5a-1bf4-c9af-0af8-f3a4b2ab5578">
+      <Execution id="becb7c71-8b2f-4805-b589-70b739976792" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.CoreTests" name="ProfilesAndPreferencesSurviveRestart" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.ProfileServiceTests.CreateRenameDeleteArePersisted" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="cf7bd6e6-b975-1d34-9b5c-69e2626bd1bd">
+      <Execution id="9817678d-ae88-40c4-a073-23dfa95f8d8b" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.ProfileServiceTests" name="CreateRenameDeleteArePersisted" />
+    </UnitTest>
+    <UnitTest name="KeyBoost.Tests.KeyboardSettingsTests.ApplySavesOriginalBeforeChangeAndRestoreSurvivesRestart" storage="/workspace/xero/tests/keyboost.tests/bin/release/net8.0/keyboost.tests.dll" id="baafa294-12d5-1672-0165-443e0efcae55">
+      <Execution id="b9d0bd89-688b-42eb-ae5c-d69cf703c2ce" />
+      <TestMethod codeBase="/workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="KeyBoost.Tests.KeyboardSettingsTests" name="ApplySavesOriginalBeforeChangeAndRestoreSurvivesRestart" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="cf7bd6e6-b975-1d34-9b5c-69e2626bd1bd" executionId="9817678d-ae88-40c4-a073-23dfa95f8d8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24dfe0e4-6092-63f4-b849-f5a04b318df9" executionId="cdf820a9-497a-4b12-aff0-f33e5581ebd0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6377502-fcca-1984-6a5d-c74b835b1f17" executionId="e690941e-6fc9-4082-bb83-7b5db572a2d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19fb7513-fcc0-7abb-3d99-90a50ebf1acc" executionId="b231a24b-f0a3-4a10-8bee-a7a8006c5968" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1efeefb0-62be-0e6d-4705-0bfc9c977167" executionId="a48a669d-3a73-4821-9d52-0f2bfe7cc27b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab088c96-ba08-1271-6110-9147c2e57f8c" executionId="b6407ad3-107c-44a4-a034-c35cc8196b2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="baafa294-12d5-1672-0165-443e0efcae55" executionId="b9d0bd89-688b-42eb-ae5c-d69cf703c2ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d68218e-35a2-6694-05c6-e556e0598247" executionId="cc494841-3bed-414c-92cf-5136a6def23a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b169b81-7644-ed20-f0d1-7166ea416a14" executionId="6aeba7e2-b6d0-46fd-9632-751d64b52294" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f984c1de-15de-f28a-0014-edddde47d4fd" executionId="065e85ad-0cdd-41bb-aea8-7bf1b6539cae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f67eae5-2a8e-2b83-9817-50417fdade48" executionId="b6dee1f8-050a-43f1-8f01-5c810235efbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="264b5b5a-1bf4-c9af-0af8-f3a4b2ab5578" executionId="becb7c71-8b2f-4805-b589-70b739976792" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99ff7d36-0b4b-1f57-d540-c056aa8ae7c9" executionId="cff2f2fb-851f-4875-b12b-0dd1be96faa4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e519dc86-03d2-d7a6-fd5c-fab9726b324f" executionId="948ec518-4d70-4342-8705-49312519db08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="071a3ac9-12a0-e8ab-17c6-dfb98188130e" executionId="bf74e63f-66fc-4a7f-be09-7a886f57219c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6b4b98f-216c-df1a-5520-9dcdf08591b7" executionId="a13e1f91-c0ac-47b8-91d8-278bf1c097a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48904153-f217-dd2f-6dad-e70f12ce6786" executionId="e5de2a62-8588-4c83-baf6-81ca59204113" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1dc3c97-9d71-cb46-1d3b-587f5dff64c4" executionId="2f7af418-3773-4654-b346-4b835201d411" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a603c15-814d-5bb4-e129-60a433b49104" executionId="e090d62b-d330-43a3-899c-bc57fcb3edb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="19" executed="19" passed="19" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.33)
+[xUnit.net 00:00:00.04]   Discovering: KeyBoost.Tests
+[xUnit.net 00:00:00.07]   Discovered:  KeyBoost.Tests
+[xUnit.net 00:00:00.07]   Starting:    KeyBoost.Tests
+[xUnit.net 00:00:00.17]   Finished:    KeyBoost.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

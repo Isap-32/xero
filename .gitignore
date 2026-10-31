@@ -1,0 +1,6 @@
+**/bin/
+**/obj/
+artifacts/*
+!artifacts/.gitkeep
+TestResults/
+.vs/

@@ -1,0 +1,45 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KeyBoost.Core -> /workspace/xero/src/KeyBoost.Core/bin/Release/net8.0/KeyBoost.Core.dll
+  KeyBoost.WindowsSmoke -> /workspace/xero/Tests/KeyBoost.WindowsSmoke/bin/Release/net8.0-windows/KeyBoost.WindowsSmoke.dll
+  KeyBoost.Tests -> /workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll
+  KeyBoost -> /workspace/xero/src/KeyBoost/bin/Release/net8.0-windows/KeyBoost.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.47
+Test run for /workspace/xero/Tests/KeyBoost.Tests/bin/Release/net8.0/KeyBoost.Tests.dll (.NETCoreApp,Version=v8.0)
+VSTest version 17.11.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+WARNING: Overwriting results file: /workspace/xero/artifacts/test-results/core.trx
+Results File: /workspace/xero/artifacts/test-results/core.trx
+
+Passed!  - Failed:     0, Passed:    19, Skipped:     0, Total:    19, Duration: 51 ms - KeyBoost.Tests.dll (net8.0)
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KeyBoost.Core -> /workspace/xero/src/KeyBoost.Core/bin/Release/net8.0/win-x64/KeyBoost.Core.dll
+  KeyBoost -> /workspace/xero/src/KeyBoost/bin/Release/net8.0-windows/win-x64/KeyBoost.dll
+  KeyBoost -> /workspace/xero/artifacts/win-x64/
+Processing script file: "installer/KeyBoost.nsi" (UTF8)
+
+Processed 1 file, writing output (x86-unicode):
+
+Output: "/workspace/xero/artifacts/KeyBoost-1.0.0-Setup.exe"
+Install: 4 pages (256 bytes), 1 section (4120 bytes), 476 instructions (13328 bytes), 224 strings (7734 bytes), 1 language table (306 bytes).
+Uninstall: 2 pages (192 bytes), 1 section (4120 bytes), 95 instructions (2660 bytes), 119 strings (3880 bytes), 1 language table (254 bytes).
+Datablock optimizer saved 26498 bytes (~0.0%).
+
+Using lzma (compress whole) compression.
+
+EXE header size:              208384 / 102400 bytes
+Install code:                          (24160 bytes)
+Install data:                          (74042877 bytes)
+Uninstall code+data:                   (144416 bytes)
+Compressed data:            67304504 / 74211453 bytes
+CRC (0xF7A892F4):                  4 / 4 bytes
+
+Total size:                 67512892 / 74313857 bytes (90.8%)
